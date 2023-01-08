@@ -49,6 +49,7 @@ body {
   right: 320px;
   top: 26px;
   color: #f7f7f7;
+  cursor: pointer;
 }
 
 i {
@@ -375,59 +376,17 @@ pretext {
     margin-top: 28px;
   }
 }
-@media only screen and (min-width: 300px) and (max-width: 460px) {
-  .fa-solid.fa-circle-plus {
+@media only screen and (min-width: 300px) and (max-width: 800px) {
+  #cplus {
     color: #00a5ec;
     font-size: 35px;
     position: relative;
-    top: 90px;
+    top: 20px;
     left: 45vw;
     margin-top: 28px;
   }
 }
-@media only screen and (min-width: 460px) and (max-width: 550px) {
-  .fa-solid.fa-circle-plus {
-    color: #00a5ec;
-    font-size: 35px;
-    position: relative;
-    top: 90px;
-    left: 35vw;
-    margin-top: 28px;
-  }
-}
 
-@media only screen and (min-width: 550px) and (max-width: 650px) {
-  .fa-solid.fa-circle-plus {
-    color: #00a5ec;
-    font-size: 35px;
-    position: relative;
-    top: 90px;
-    left: 40vw;
-    margin-top: 28px;
-  }
-}
-
-@media only screen and (min-width: 650px) and (max-width: 800px) {
-  .fa-solid.fa-circle-plus {
-    color: #00a5ec;
-    font-size: 35px;
-    position: relative;
-    top: 90px;
-    left: 30vw;
-    margin-top: 28px;
-  }
-}
-
-@media only screen and (max-width: 300px) {
-  .fa-solid.fa-circle-plus {
-    color: #00a5ec;
-    font-size: 35px;
-    position: relative;
-    top: 90px;
-    left: 45vw;
-    margin-top: 28px;
-  }
-}
 @media only screen and (max-width: 540px) {
   #fav2 {
     position: relative;
